@@ -9,9 +9,7 @@ En este archivo se explica cada uno de los archivos aqui presentes y como conect
 Para conectarse a a la db se recomienda usar Python usando el sigente codigo:
 
 from neo4j import GraphDatabase
-uri = "neo4j+s://76838788.databases.neo4j.io"
-user = "neo4j"
-password = "urfpim_kxVWH5LgUxt0M1NcEVRhgyPTd9W5ZXjoRQMQ"
+
 driver = GraphDatabase.driver(uri, auth=(user, password))
 
 Y para hacer queries usar el siguiente codigo.
